@@ -57,7 +57,6 @@ header {
   padding-top: 10px;
   justify-content: center;
   display: flex;
-
 }
 
 input {
@@ -68,7 +67,6 @@ input {
   padding-left: 10px;
   border-style: none;
   font-family: 'Nunito', sans-serif;
-  ;
 }
 
 
@@ -76,7 +74,6 @@ button {
   background-color: #1FB4E3;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  /* padding: 0 30px 0 30px; */
   width: 338px;
   height: 40px;
   border-radius: 5px;
@@ -85,8 +82,8 @@ button {
   color: white;
   font-size: 16px;
   font-family: 'Nunito', sans-serif;
-  ;
 }
+
 
 footer {
   background: linear-gradient(white, #1FB4E3);
@@ -99,8 +96,6 @@ hr {
 }
 
 .alt-signin {
-
-
   display: flex;
   justify-content: center;
 }
@@ -121,7 +116,6 @@ nav li {
   width: 250px;
   padding: 15px;
   text-align: center;
-
 }
 
 nav li a {
@@ -163,13 +157,21 @@ nav {
   justify-content: center;
 }
 
+#error_msg p {
+  color: red;
+  font-family: 'Nunito', sans-serif;
+  padding: 20px; 
+  border-radius: 10px; 
+  text-align: center;
+}
+
+
 @media screen and (max-width:480px) {
-  
   nav ul {
     padding-left: 0%;
     margin: 0%;
   }
-  
+
   nav li {
     margin: 0%;
     width: 100px;
@@ -183,8 +185,6 @@ nav {
   }
 
   .sub-msg {
-
     padding: 50px 0 30px 0;
   }
-
 }
